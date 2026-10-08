@@ -1,0 +1,33 @@
+prm-forum-activity:
+  admin:
+    permissions:
+      feature_label: Konuları öne çıkar
+    settings:
+      default_tab_label: Varsayılan aktivite sekmesi
+      default_tab_help: Henüz seçim yapmamış ziyaretçilerde ilk açılacak sekme.
+      default_tab_latest: Yeni mesajlar
+      default_tab_featured: Öne çıkanlar
+      default_tab_newest: Yeni konular
+      default_tab_popular: Popüler
+  forum:
+    title: Forum aktiviteleri
+    tabs:
+      latest: Yeni mesajlar
+      featured: Öne çıkanlar
+      newest: Yeni konular
+      popular: Popüler
+    columns:
+      topic: Konu
+      forum: Forumu
+      posts: Gönderim
+      last_poster: Son yazan
+    sticky_section: Sabit konular
+    normal_section: Normal konular
+    sticky_label: Sabit konu
+    empty: Gösterilecek konu yok.
+    load_more: Daha fazla yükle
+    discussion_controls:
+      feature: Öne çıkar
+      unfeature: Öne çıkarmayı kaldır
+    badge:
+      featured_tooltip: Öne çıkan konu
